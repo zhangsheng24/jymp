@@ -1,0 +1,57 @@
+.auth_index {
+  width: 100%;
+  min-height: 100vh;
+}
+.auth_index .logo {
+  height: calc(100vh - 274rpx);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth_index .logo .logo_img {
+  width: 460rpx;
+}
+.auth_index .btn_wrap {
+  height: 206rpx;
+  margin-bottom: 68rpx;
+}
+.auth_index .btn_wrap .btn {
+  margin: 0 64rpx;
+  font-size: 32rpx;
+  border-radius: 44rpx;
+  border: none;
+  line-height: 88rpx;
+}
+.auth_index .btn_wrap .login {
+  background-color: #4171FF;
+}
+.auth_index .btn_wrap .cancel {
+  margin-top: 30rpx;
+  background-color: #E2E2E2;
+  color: #999;
+}
+.getInfo_wrap {
+  padding: 60rpx 30rpx;
+}
+.getInfo_wrap .title {
+  font-size: 32rpx;
+  text-align: center;
+}
+.getInfo_wrap .getPhone {
+  margin: 30rpx 0;
+}
+.getInfo_wrap .getPhone .getPhoneBtn {
+  background-color: #4171FF;
+  border-radius: 44rpx;
+  font-size: 30rpx;
+  line-height: 88rpx;
+}
+.getInfo_wrap .tips {
+  font-size: 28rpx;
+  margin-top: 80rpx;
+}
+.getInfo_wrap .tips .rules {
+  font-size: 30rpx;
+  color: #4171FF;
+  text-align: center;
+}

@@ -1,0 +1,2 @@
+<auth wx:if="{{showAuth}}"></auth>
+<!-- <h5 wx:if="{{!showAuth && token}}"></h5> -->

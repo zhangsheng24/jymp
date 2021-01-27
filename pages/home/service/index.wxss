@@ -1,0 +1,30 @@
+.component_wrap {
+  display: flex;
+  justify-content: center;
+}
+.component_wrap .agreement-content {
+  padding: 10px 20px;
+}
+.component_wrap .agreement-content .agreement-content-text {
+  white-space: pre-wrap;
+  line-height: 2;
+  text-align: left;
+}
+.component_wrap .agreement-content .agreement-content-text .title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.component_wrap .agreement-content .agreement-content-text .tip {
+  font-weight: bold;
+  text-align: left;
+  font-size: 14px;
+}
+.component_wrap .agreement-content .agreement-content-text .level-1 {
+  font-weight: bold;
+  font-size: 14px;
+}
+.component_wrap .agreement-content .agreement-content-text .text {
+  text-indent: 2em;
+  font-size: 14px;
+}

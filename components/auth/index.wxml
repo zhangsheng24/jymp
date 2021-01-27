@@ -1,0 +1,25 @@
+<view class="auth_index">
+  <view class="logo">
+    <image class="logo_img" mode='widthFix' src='../../assets/images/img_01.png' />
+  </view>
+  <view class="btn_wrap">
+    <button class="login btn" type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="getUserInfo">
+      微信一键登录
+    </button>
+    <button class="cancel btn" bindtap='handleCancel' type='default'>取消</button>
+  </view>
+</view>
+<van-popup show="{{ show }}" round custom-style="width: 80%;" bind:close="onClose">
+  <view class="getInfo_wrap">
+    <view class="title">获取到手机号后管理活动</view>
+    <view class="getPhone">
+      <button class="getPhoneBtn" type='primary' open-type="getPhoneNumber" lang="zh_CN" bindgetphonenumber="getPhoneNumber">
+        获取手机号
+      </button>
+    </view>
+    <view class="tips">
+      <view>点击获取手机号按钮，即表示已阅读并同意</view>
+      <view class="rules" bindtap="goTo">《鲸鱼活动网站服务条款》</view>
+    </view>
+  </view>
+</van-popup>

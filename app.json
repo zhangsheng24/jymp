@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/service/index",
+    "pages/home/H5/index",
+    "pages/payment/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "鲸鱼轻会",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

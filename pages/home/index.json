@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-popup": "@vant/weapp/popup/index",
+    "auth": "../../components/auth/index",
+    "h5": "../../components/H5/index"
+  }
+}
